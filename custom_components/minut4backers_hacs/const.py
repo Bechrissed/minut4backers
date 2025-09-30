@@ -14,7 +14,7 @@ PLATFORMS: Final = ["sensor", "binary_sensor"]
 # hour in the official integration, but the API used here allows more frequent
 # polling. A 60 second interval offers near‑real‑time values without risking
 # hitting the documented rate limits【309709768529123†L230-L263】.
-SCAN_INTERVAL: Final = timedelta(seconds=60)
+SCAN_INTERVAL: Final = timedelta(seconds=15)
 
 # Configuration keys used in the config flow and stored in the config entry
 CONF_USER_ID: Final = "user_id"
