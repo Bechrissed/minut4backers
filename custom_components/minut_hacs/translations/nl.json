@@ -1,0 +1,23 @@
+{
+  "config": {
+    "title": "Minut Point (HACS)",
+    "step": {
+      "user": {
+        "title": "Configureer Minut Point",
+        "description": "Voer je Minut‑tokens of inloggegevens in. Als je gebruikersnaam en wachtwoord opgeeft, haalt de integratie automatisch tokens op.",
+        "data": {
+          "user_id": "Gebruikers-ID",
+          "access_token": "Toegangstoken",
+          "refresh_token": "Vernieuwings-token",
+          "username": "Gebruikersnaam",
+          "password": "Wachtwoord"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Authenticatie mislukt. Controleer je gegevens.",
+      "cannot_connect": "Kan geen verbinding maken met de Minut API.",
+      "unknown": "Onbekende fout opgetreden."
+    }
+  }
+}

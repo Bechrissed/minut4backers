@@ -1,0 +1,23 @@
+{
+  "config": {
+    "title": "Minut Point (HACS)",
+    "step": {
+      "user": {
+        "title": "Configure Minut Point",
+        "description": "Enter your Minut tokens or credentials. If you provide username and password, the integration will retrieve tokens automatically.",
+        "data": {
+          "user_id": "User ID",
+          "access_token": "Access Token",
+          "refresh_token": "Refresh Token",
+          "username": "Username",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid authentication. Please check your credentials or tokens.",
+      "cannot_connect": "Unable to connect to the Minut API.",
+      "unknown": "Unknown error occurred."
+    }
+  }
+}
