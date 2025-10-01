@@ -1,5 +1,5 @@
 {
-  "domain": "minut_hacs",
+  "domain": "minut",
   "name": "Minut4backers",
   "codeowners": ["@JasonTrainer"],
   "dependencies": [],
