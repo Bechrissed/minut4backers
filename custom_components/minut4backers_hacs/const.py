@@ -5,7 +5,7 @@ from __future__ import annotations
 from datetime import timedelta
 from typing import Final
 
-DOMAIN: Final = "minut_hacs"
+DOMAIN: Final = "minut4backers"
 
 # Supported platforms. Sensors and binary sensors are implemented.
 PLATFORMS: Final = ["sensor", "binary_sensor"]

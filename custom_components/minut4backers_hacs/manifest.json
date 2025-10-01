@@ -1,10 +1,12 @@
 {
-  "domain": "minut",
+  "domain": "Minut4backers",
   "name": "Minut4backers",
-  "codeowners": ["@JasonTrainer"],
-  "dependencies": [],
-  "documentation": "https://github.com/Bechrissed/minut4backers/readme.md",
-  "integration_type": "hub",
+  "version": "0.1.0",
+  "documentation": "https://github.com/bechrissed/minut4backers",
+  "issue_tracker": "https://github.com/bechrissed/minut4backers/issues",
+  "codeowners": ["@bechrissed"],
+  "config_flow": true,
   "iot_class": "cloud_polling",
-  "requirements": []
+  "requirements": [],
+  "loggers": ["custom_components.Minut4backers"]
 }

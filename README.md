@@ -96,7 +96,7 @@ If you encounter issues, enable debug logging for the integration by adding the 
 logger:
   default: warning
   logs:
-    custom_components.minut_hacs: debug
+    custom_components.minut4backers: debug
 ```
 
 ## Disclaimer
