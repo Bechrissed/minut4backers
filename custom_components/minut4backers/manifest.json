@@ -1,6 +1,6 @@
 {
-  "domain": "Minut4backers",
-  "name": "Minut4backers",
+  "domain": "minut4backers",
+  "name": "minut4backers",
   "version": "0.1.0",
   "documentation": "https://github.com/bechrissed/minut4backers",
   "issue_tracker": "https://github.com/bechrissed/minut4backers/issues",
@@ -8,5 +8,5 @@
   "config_flow": true,
   "iot_class": "cloud_polling",
   "requirements": [],
-  "loggers": ["custom_components.Minut4backers"]
+  "loggers": ["custom_components.minut4backers"]
 }
