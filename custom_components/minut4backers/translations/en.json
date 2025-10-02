@@ -15,9 +15,11 @@
       }
     },
     "error": {
-      "invalid_auth": "Invalid authentication. Please check your credentials or tokens.",
-      "cannot_connect": "Unable to connect to the Minut API.",
-      "unknown": "Unknown error occurred."
+      "missing_auth": "Provide either tokens (user_id, access_token, refresh_token) or username + password.",
+      "invalid_auth": "Invalid Minut credentials/tokens.",
+      "rate_limited": "Minut API rate limit hit. Try again in a minute.",
+      "cannot_connect": "Cannot reach Minut API.",
+      "unknown": "Unexpected error."
     }
   }
 }

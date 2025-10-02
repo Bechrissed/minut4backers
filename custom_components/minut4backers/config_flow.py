@@ -70,3 +70,5 @@ class MinutHacsConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
             return self.async_show_form(step_id="user", data_schema=DATA_SCHEMA, errors=errors)
 
         return self.async_create_entry(title="Minut Account", data=user_input)
+    
+    #test
