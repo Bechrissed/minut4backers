@@ -1,6 +1,6 @@
 # Minut4backers Minut Point HACS Integration
 
-Integrate your Minut Point devices into Home Assistant. This custom integration polls the Minut REST API to retrieve temperature, humidity and noise level readings and exposes motion and alarm events as binary sensors. The integration is installable through [HACS](https://hacs.xyz/) and does **not** require the official enterprise API credentials. The name Minut4backers is because Minut has been unfair to it's original Kickstarter backers who helped the company get started with it's first device. Don't be evil Minut. Do not make promises you can't keep. Do not think people are stupid.
+Integrate your Minut Point devices into Home Assistant. This custom integration polls the Minut REST API to retrieve temperature, humidity and noise level readings and exposes motion and alarm events as binary sensors. The integration is installable through [HACS](https://hacs.xyz/) and does **not** require the official enterprise API credentials. The name Minut4backers is because Minut has been unfair to it's original Kickstarter backers who helped the company get started with it's first device. Don't be evil Minut. Do not make promises you can't keep.
 
 ## Features
 
@@ -96,9 +96,9 @@ If you encounter issues, enable debug logging for the integration by adding the 
 logger:
   default: warning
   logs:
-    custom_components.minut_hacs: debug
+    custom_components.minut4backers: debug
 ```
 
 ## Disclaimer
 
-This integration is an unofficial community project and is not endorsed by Minut. It relies on the same endpoints used by the Minut web dashboard and therefore may break if Minut changes their API. Which they will probably do soon. Don't worry, there's any even better suprise for them waiting when that time comes. Use at your own risk. If you have an enterprise subscription with official API access, you're better of using the official Home Assistant **Point** integration instead【186261486540357†L90-L121】.
+This integration is an unofficial community project and is not endorsed by Minut. It relies on the same endpoints used by the Minut web dashboard and therefore may break if Minut changes their API. Which they will probably do soon. Use at your own risk. If you have an enterprise subscription with official API access, you're better of using the official Home Assistant **Point** integration instead.
